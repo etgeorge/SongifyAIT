@@ -51,7 +51,7 @@ class Dialog : DialogFragment() {
 
         builder.setPositiveButton("Search"){
             dialog, which ->
-            //Put the entries as string extras to result activity
+
                 var firstURL = dialogBinding.etDialogSong1.text.toString()
                 var secondURL = dialogBinding.etDialogSong2.text.toString()
 
